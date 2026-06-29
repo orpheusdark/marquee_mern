@@ -9,68 +9,121 @@
     <h1 align="center">SPORTS PHYSICAL FORM</h1>
     <form action="actionpage.html" method="get">
       <fieldset>
-        <legend>Athlete Information</legend>
+        <legend><strong>Athlete Information</strong></legend>
         <ul>
           <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" />
+            <label for="name"><strong>Name:</strong></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
           </li>
           <li>
-            <label for="school">School/Team:</label>
-            <input type="text" id="school" name="school" />
+            <label for="school"><strong>School/Team:</strong></label>
+            <input
+              type="text"
+              id="school"
+              name="school"
+              value="Parul University"
+            />
           </li>
           <li>
-            <label for="sport">Sport:</label>
-            <input type="text" id="sport" name="sport" />
+            <label for="sport"><strong>Sport:</strong></label>
+            <input
+              type="text"
+              id="sport"
+              name="sport"
+              placeholder="Hockey, Football, Basketball"
+            />
           </li>
           <li>
-            <label for="parent">Parent/Guardian:</label>
-            <input type="text" id="parent" name="parent" />
+            <label for="parent"><strong>Parent/Guardian:</strong></label>
+            <input
+              type="text"
+              id="parent"
+              name="parent"
+              placeholder="Enter parent or guardian name"
+            />
           </li>
           <li>
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" />
+            <label for="phone"><strong>Phone Number:</strong></label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter phone number"
+              "
+            />
           </li>
         </ul>
       </fieldset>
 
       <fieldset>
-        <legend>Medical History</legend>
+        <legend><strong>Medical History</strong></legend>
         <ul>
           <li>
-            <label for="history">History Of Concussions:</label>
-            <input type="radio" id="history" name="history" value="yes" />Yes
-            <input type="radio" id="history" name="history" value="no" />No
-          </li>
-          <li>
-            <label for="Surgery">Previous Surgeries:</label>
-            <input type="text" id="Surgery" name="Surgery" />
-          </li>
-          <li>
-            <label for="bone">Any Bone Fractures ?</label>
-            <input type="radio" id="bone" name="bone" value="yes" />Yes
-            <input type="radio" id="bone" name="bone" value="no" />No
-          </li>
-          <li>
-            <label for="Asthma or Breathing Problems"
-              >Asthma or Breathing Problems:</label
+            <strong>History Of Concussions:</strong>
+            <label for="history_yes"
+              ><input
+                type="radio"
+                id="history_yes"
+                name="history"
+                value="yes"
+              />
+              Yes</label
             >
-            <input
-              type="radio"
-              id="Asthma or Breathing Problems"
-              name="Asthma or Breathing Problems"
-              value="yes"
-            />Yes
-            <input
-              type="radio"
-              id="Asthma or Breathing Problems"
-              name="Asthma or Breathing Problems"
-              value="no"
-            />No
+            <label for="history_no"
+              ><input type="radio" id="history_no" name="history" value="no" />
+              No</label
+            >
+          </li>
+          <li>
+            <label for="Surgery"><strong>Previous Surgeries:</strong></label>
+            <input type="text" id="Surgery" name="Surgery" value readonly />
+          </li>
+          <li>
+            <strong>Bone Fractures:</strong>
+            <label for="bone_fractures_yes"
+              ><input
+                type="radio"
+                id="bone_fractures_yes"
+                name="bone"
+                value="yes"
+              />Yes</label
+            >
+            <label for="bone_fractures_no"
+              ><input
+                type="radio"
+                id="bone_fractures_no"
+                name="bone"
+                value="no"
+              />No</label
+            >
+          </li>
+          <li>
+            <strong>Asthma or Breathing Problems:</strong>
+            <label for="Asthma_or_Breathing_Problems_yes"
+              ><input
+                type="radio"
+                id="Asthma_or_Breathing_Problems_yes"
+                name="Asthma_or_Breathing_Problems"
+                value="yes"
+              />Yes</label
+            >
+            <label for="Asthma_or_Breathing_Problems_no"
+              ><input
+                type="radio"
+                id="Asthma_or_Breathing_Problems_no"
+                name="Asthma_or_Breathing_Problems"
+                value="no"
+              />No</label
+            >
           </li>
         </ul>
 
-        <h3>Fitness Assessment</h3>
+        <h3><strong>Fitness Assessment</strong></h3>
         <table>
           <tr>
             <th>Category</th>
@@ -96,14 +149,85 @@
             <td><input type="radio" name="strength" value="fail" /></td>
             <td><input type="text" name="strength" /></td>
           </tr>
-          <tr></tr>
+          <tr>
+            <td>Endurance</td>
+            <td><input type="radio" name="endurance" value="pass" /></td>
+            <td><input type="radio" name="endurance" value="fail" /></td>
+            <td><input type="text" name="endurance" /></td>
+          </tr>
         </table>
       </fieldset>
 
       <fieldset>
-        <legend>Doctor Recommendations</legend>
+        <legend><strong>Doctor Recommendations</strong></legend>
+        <textarea
+          name="recommendations"
+          rows="4"
+          cols="50"
+          placeholder="Doctor's recommendations..."
+        ></textarea>
       </fieldset>
 
+      <fieldset>
+        <legend><strong>Department</strong></legend>
+        <select name="department">
+          <option value="NULL">Select Department</option>
+          <option value="CSE">CSE</option>
+          <option value="IT">IT</option>
+          <option value="CyBER">CyBER</option>
+          <option value="ECE">ECE</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Hobbies</strong></legend>
+        <label for="hobby1"
+          ><input type="checkbox" id="hobby1" name="hobby" value="Reading" />
+          Reading</label
+        >
+        <label for="hobby2"
+          ><input type="checkbox" id="hobby2" name="hobby" value="Sports" />
+          Sports</label
+        >
+        <label for="hobby3"
+          ><input type="checkbox" id="hobby3" name="hobby" value="Music" />
+          Music</label
+        >
+      
+      </fieldset>
+
+
+      <fieldset>
+        <legend><strong>Address</strong></legend>
+        <textarea
+          name="address"
+          rows="4"
+          cols="50"
+          placeholder="Enter your address here..."
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend><strong>Credentials</strong></legend>
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" name="email" placeholder="Enter your email here..." />
+        <label for="password"><strong>Password:</strong></label>
+        <input type="password" id="password" name="password" placeholder="Enter your  password here..." />
+      </fieldset>
+     <fieldset>
+  <legend>
+    <strong>Additional Information</strong>
+  </legend>
+  <label for="date"><strong> Preferred Date</strong></label>
+  <input type="date" id="date" name="date" />
+  <label for="time"><strong>Preferred Time:</strong></label>
+  <input type="time" id="time" name="time" />
+     </fieldset> 
+     
+     <fieldset>
+      <legend><strong>File Upload</strong></legend>
+      <label for="file"><strong>Upload File:</strong></label>
+     <br>
+      <input type="file" id="file" name="file" accept=".pdf,.jpg,.jpeg"/>
       <input type="submit" value="Submit" />
     </form>
   </body>
