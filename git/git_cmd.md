@@ -1,37 +1,44 @@
 # git_commit
 
 Initialize git
+
 ```
 git init
 ```
+
 push to remote repo (github)
 
-1. ``` git add.```
-2. ``` git commit -m "Message" ```
-3. ``` git push ```
+1. ` git add.`
+2. `git commit -m "Message"`
+3. `git push`
 
 ## Status
 
-``` git status ```
+`git status`
 
 ## BRANCH
 
 create new branch
-``` git branch branch_name ```
+`git branch branch_name`
+
 switch brach
-``` git checkout branch_name ``
+``git checkout branch_name`
+
 delete branch
-``` git branch -d branch_name ```
+`git branch -d branch_name`
+
 list branches
-``` git branch ```
+`git branch`
+
 remote branch
-``` git push origin branch_name ```
+`git push origin branch_name`
+
 merge branch
-``` git merge branch_name ```
+`git merge branch_name`
 
 ## RemoteRepo
 
 fetch repo
-``` git fetch ```
+`git fetch`
 pull remote repo
-``` git pull ```
+`git pull`
