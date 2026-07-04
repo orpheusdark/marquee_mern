@@ -49,7 +49,10 @@ git push origin branch_name
 ```
 
 merge branch
-`git merge branch_name`
+
+```
+git merge branch_name
+```
 
 ## RemoteRepo
 
@@ -62,4 +65,15 @@ pull remote repo
 
 ```
 git pull
+```
+
+Push Local Branch to origin (remote)
+```
+git push origin --all or branch_name
+```
+
+Delete remote branch
+
+```
+git push origin --delete branch_name
 ```
