@@ -4,9 +4,4 @@ Marquee Training - MERN
 
 Start : 25/06
 
-# git-test
-
-@orpheusdark
-
-```
-merge conflict
+git-cmd [git/git_cmd.md]
