@@ -12,11 +12,11 @@ git init
 2. `git commit -m "Message"`
 3. `git push`
 
-### Status
+## Status
 
 `git status`
 
-### BRANCH
+## BRANCH
 
 Ceate new branch
 
@@ -48,28 +48,12 @@ Remote branch
 git push origin branch_name
 ```
 
-Merge branch
-
-```
-git merge branch_name
-```
+merge branch
+`git merge branch_name`
 
 ## RemoteRepo
 
-Fetch repo
-
-```
-git fetch
-```
-
-### Clone repo
-
-```
-git clone "repo_name.git(link)"
-```
-
-### Pull remote repo
-
-```
-git pull
-```
+fetch repo
+`git fetch`
+pull remote repo
+`git pull`
