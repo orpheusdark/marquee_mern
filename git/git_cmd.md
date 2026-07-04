@@ -1,4 +1,4 @@
-# git_commit
+# git_cmd
 
 ### Initialize git
 
@@ -54,6 +54,12 @@ merge branch
 ## RemoteRepo
 
 fetch repo
-`git fetch`
+
+```
+git fetch
+```
 pull remote repo
-`git pull`
+
+```
+git pull
+```
