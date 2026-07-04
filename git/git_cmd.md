@@ -1,44 +1,75 @@
 # git_commit
 
-Initialize git
+### Initialize git
 
 ```
 git init
 ```
 
-push to remote repo (github)
+### Push to remote repo (github)
 
 1. ` git add.`
 2. `git commit -m "Message"`
 3. `git push`
 
-## Status
+### Status
 
 `git status`
 
-## BRANCH
+### BRANCH
 
-create new branch
-`git branch branch_name`
+Ceate new branch
 
-switch brach
-``git checkout branch_name`
+```
+git branch branch_name
+```
 
-delete branch
-`git branch -d branch_name`
+Switch brach
 
-list branches
-`git branch`
+```
+git checkout branch_name
+```
 
-remote branch
-`git push origin branch_name`
+Delete branch
 
-merge branch
-`git merge branch_name`
+```
+git branch -d branch_name
+```
+
+List branches
+
+```
+git branch
+```
+
+Remote branch
+
+```
+git push origin branch_name
+```
+
+Merge branch
+
+```
+git merge branch_name
+```
 
 ## RemoteRepo
 
-fetch repo
-`git fetch`
-pull remote repo
-`git pull`
+Fetch repo
+
+```
+git fetch
+```
+
+### Clone repo
+
+```
+git clone "repo_name.git(link)"
+```
+
+### Pull remote repo
+
+```
+git pull
+```
