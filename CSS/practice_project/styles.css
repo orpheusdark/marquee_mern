@@ -1,0 +1,14 @@
+div > p {
+  color: green;
+}
+h1,
+h2 {
+  color: red;
+}
+a:hover {
+  background-color: green;
+}
+
+a {
+  color: red;
+}
