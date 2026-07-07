@@ -1,6 +1,6 @@
 /* Universal [*] */
 * {
-     background-color: beige;
+  background-color: beige;
 }
 
 /* tag name - type selector */
@@ -8,13 +8,14 @@ h1 {
   background-color: cyan;
 }
 h2 {
-  background-color:aliceblue;
+  background-color: aliceblue;
 }
 h3 {
-    background-color: rgb(238, 128, 234);
+  background-color: aliceblue;
 }
 ol {
-  color: rebeccapurple;
+  color: rgb(85, 65, 106);
+  text-align: center;
 }
 article {
   font-family: cursive;
@@ -28,9 +29,6 @@ strong.cfo {
 ul.formatting {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.heading {
-    color:red;
-}
 
 /* # id */
 #inline_css {
@@ -43,7 +41,7 @@ ul.formatting {
   background-color: rgb(123, 185, 240);
 }
 #link {
-    margin-left: 250px;
+  margin-left: 250px;
 }
 /* Group selector */
 
@@ -51,38 +49,97 @@ h1,
 h2,
 h3,
 #link {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
 /* descendent selector */
 div p {
-    color:rgb(252, 0, 0)
+  color: rgb(252, 0, 0);
 }
-
 
 /* Child Selector  - direct children*/
 div > strong {
-    color: rgb(207, 87, 87)
+  color: rgb(207, 87, 87);
 }
 
 section > p {
-    color:red;
+  color: red;
 }
 
 /* ATTRIBUTE selector*/
 /* tag[attribute_name = value] */
 
-input[type = text] {
-    background-color: blue;
+input[type="text"] {
+  background-color: rgb(216, 249, 163);
 }
-input[type = password] {
-    background-color: red;
+input[type="password"] {
+  background-color: rgb(75, 255, 156);
 }
-
 
 /* pseudo class */
 
 #link:hover {
-    font-weight:900;
-    color: brown;
+  font-weight: 900;
+  color: brown;
+}
+
+/* font */
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#honk-cssColorFont {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  text-align: center;
+}
+
+.nabla-codecssfont {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.bitcount-prop-single-ink-cssfont {
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+section {
+  text-align: center;
+  background-color: black;
+}
+label {
+  background-color: transparent;
+}
+
+h1 {
+  margin: 50px;
+  padding: 20px;
+  border: solid blueviolet;
 }
