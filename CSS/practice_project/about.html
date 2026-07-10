@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- SEO (Search Engine Optimization) is the practice of improving your website’s content and structure to rank higher on search engines like Google -->
 
@@ -23,18 +23,33 @@
       .centralized {
         text-align: center;
       }
+      #navbar-top {
+        background-color: bisque;
+        position: sticky;
+        top: 0;
+        padding: 7px;
+        text-align: center;
+      }
+      
+      #chatbot {
+        height: 70px;
+        width: 70px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
     </style>
   </head>
   <body>
     <!-- Top Level Information -->
-
+    <img src="/assets/conversation-alt-svgrepo-com.svg" alt="chat" id="chatbot"/>
     <header id="navbar-top">
       <nav>
-        <a href="#sub-heading-1">1. Topics</a> <br />
-        <a href="#sub-heading-2">2. Topics</a> <br />
-        <a href="#sub-heading-3">3. Topics</a> <br />
-        <a href="#sub-heading-4">4. Topics</a> <br />
-        <a href="#sub-heading-5">5. Topics</a> <br />
+        <a href="#sub-heading-1" class="heading">1. Topics</a>
+        <a href="#sub-heading-2" class="heading">2. Topics</a>
+        <a href="#sub-heading-3" class="heading">3. Topics</a>
+        <a href="#sub-heading-4" class="heading">4. Topics</a>
+        <a href="#sub-heading-5" class="heading">5. Topics</a>
       </nav>
     </header>
 
