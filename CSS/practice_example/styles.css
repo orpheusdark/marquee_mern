@@ -67,7 +67,7 @@ body{
 .name{
     text-align:center;
     font-size:20px;
-    color:#0030a0;
+    color:#0037b7;
     font-weight:600;
 }
 
@@ -90,27 +90,4 @@ body{
     color:#555;
     font-size:15px;
     line-height:1.8;
-}
-
-@media(max-width:1024px){
-    .test-container{
-        gap:20px;
-    }
-
-    .test-card{
-        width:300px;
-    }
-}
-
-@media(max-width:768px){
-
-    .section-title{
-        font-size:32px;
-    }
-
-    .test-card{
-        width:100%;
-        max-width:400px;
-    }
-
 }
