@@ -26,7 +26,7 @@ body{
     font-weight:700;
 }
 
-.heading-para{
+.heading-para{a
     text-align:center;
     color:#666;
     margin:12px 0 50px;
@@ -90,4 +90,47 @@ body{
     color:#555;
     font-size:15px;
     line-height:1.8;
+}
+
+.chat{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    width:60px;
+    height:60px;
+    background:#2f3e5d;
+    border-radius: 50%;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+}
+.chat-btn {
+    position: absolute;
+    right:0;
+    font-size: 50px;
+    justify-content: center;
+
+}
+.btn-count{
+    position:absolute;
+    width:15px;
+    height:15px;
+    display:flex;
+    justify-content:center;
+    background-color: red;
+    align-items:center;
+    font-size:18px;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    color: black;
+}
+
+.whatsapp_btn {
+   position:fixed;
+    display:flex;
+    left: 0;
+    bottom: 0;
 }
