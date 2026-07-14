@@ -1,3 +1,55 @@
-.navButton {
+:root{
     
+}
+
+.navButton {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+}
+
+.flipkart_btn {
+    background-color: #ffe51f;
+    border-color: transparent;
+    border-width: 1.4px;
+}
+
+.travel_btn, .grocery_btn {
+    background-color: #f0f0f0;
+    border-color: transparent;
+    border-width: 1.4px;
+    
+}
+
+.delivery-location-logo {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+    min-height: 0px;
+    min-width: 0px;
+    position: fixed;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.search_form{
+        border: 2px solid #2EA1FF;
+    border-radius: 12px;
+    outline: 1.6px;
+    justify-content: space-between;
+    padding: 0 4px;
+    background-color: #ffffff;
+
 }
