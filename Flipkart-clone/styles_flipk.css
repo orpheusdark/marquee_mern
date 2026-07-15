@@ -132,9 +132,6 @@ body {
   color: #ffffff;
 }
 
-.action-item.login:hover img, .action-item.more:hover img {
-  filter: invert(1);
-}
 
 .action-item img {
   width: 22px;
@@ -152,9 +149,6 @@ body {
   display: inline-block;
 }
 
-.header-dropdown-container:hover .action-item .drop-icon {
-  transform: rotate(180deg);
-}
 
 .dropdown-menu {
   display: none;
