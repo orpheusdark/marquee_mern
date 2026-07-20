@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #f1f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  background-color: #f8f9fc;
+  border-radius: 16px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sidebar {
+  background: #0f6ca6;
+  width: 280px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.menu-item i {
+  margin-right: 15px;
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+}
+
+.menu-item.active {
+  background-color: #f8f9fc;
+  color: #111;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #fcfcfd;
+  padding: 50px 60px;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-icon {
+  background-color: #1072b0;
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  color: #1a2942;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f0f2f5;
+  width: calc((100% - 90px) / 4);
+}
+
+.card-icon {
+  background-color: #f7f9fa;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.card-title {
+  color: #2b3648;
+  font-size: 15px;
+  font-weight: 700;
+}
